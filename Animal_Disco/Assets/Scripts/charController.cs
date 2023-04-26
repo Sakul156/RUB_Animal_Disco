@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class charController : MonoBehaviour
 {
-    public GameObject player;
     private int playerSpeed = 6;
+    private int rotateSpeed = 90;
     private bool isDancing = false;
 
     // Update is called once per frame
@@ -13,9 +13,8 @@ public class charController : MonoBehaviour
     {
         if (!isDancing)
         {
-            danceMoves();
+            StartCoroutine(danceMoves());
             playerMovement();
-
         }
     }
 
@@ -42,12 +41,33 @@ public class charController : MonoBehaviour
         }
     }
 
-    private void danceMoves()
+    IEnumerator danceMoves()
     {
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
-            
+            isDancing = true;
+
+            transform.Rotate(Vector3.forward * rotateSpeed);
+            yield return new WaitForSeconds(0.5f);
+            transform.Rotate(Vector3.forward * rotateSpeed);
+
+            yield return new WaitForSeconds(0.5f);
+            transform.Rotate(Vector3.forward * rotateSpeed);
+
+            yield return new WaitForSeconds(0.5f);
+            transform.Rotate(Vector3.forward * rotateSpeed);
+
+            isDancing = false;
         }
-        
+
+        if(Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            isDancing = true;
+
+
+            //Dein wunderschöner sexy DanceMove
+
+            isDancing = false;
+        }
     }
 }
