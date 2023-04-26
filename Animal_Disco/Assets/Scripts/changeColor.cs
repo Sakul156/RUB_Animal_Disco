@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class changeColor : MonoBehaviour
 {
+    private cheatCodes cc;
     private SpriteRenderer sr;
     void Awake()
     {

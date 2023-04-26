@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class background_brightness : MonoBehaviour
 {
+    private cheatCodes cc;
     private SpriteRenderer sr;
 
     private void Awake()

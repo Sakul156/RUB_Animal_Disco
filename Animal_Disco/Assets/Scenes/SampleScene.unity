@@ -665,6 +665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181351817}
   - component: {fileID: 181351816}
+  - component: {fileID: 181351818}
   m_Layer: 0
   m_Name: Bear
   m_TagString: Untagged
@@ -739,6 +740,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &181351818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181351815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &184027183
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1497,6 +1510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 606218944}
   - component: {fileID: 606218943}
+  - component: {fileID: 606218945}
   m_Layer: 0
   m_Name: Penguin
   m_TagString: Untagged
@@ -1571,6 +1585,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &606218945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606218942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &640552714
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1876,6 +1902,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849264253}
   - component: {fileID: 849264252}
+  - component: {fileID: 849264254}
   m_Layer: 0
   m_Name: Narwhal
   m_TagString: Untagged
@@ -1950,6 +1977,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &849264254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849264251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &872511265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2334598002068359779, guid: e83759ac321adeb49b797a3f62c2ee6b, type: 3}
@@ -2160,6 +2199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 928536176}
   - component: {fileID: 928536175}
+  - component: {fileID: 928536177}
   m_Layer: 0
   m_Name: Monkey
   m_TagString: Untagged
@@ -2234,6 +2274,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928536177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928536174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &929223802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2519,6 +2571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1009456568}
   - component: {fileID: 1009456567}
+  - component: {fileID: 1009456569}
   m_Layer: 0
   m_Name: Buffalo
   m_TagString: Untagged
@@ -2593,6 +2646,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1009456569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009456566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1019625565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2334598002068359779, guid: e83759ac321adeb49b797a3f62c2ee6b, type: 3}
@@ -2883,6 +2948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1179185121}
   - component: {fileID: 1179185120}
+  - component: {fileID: 1179185122}
   m_Layer: 0
   m_Name: Giraffe
   m_TagString: Untagged
@@ -2957,6 +3023,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179185122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179185119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1186734488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2334598002068359779, guid: e83759ac321adeb49b797a3f62c2ee6b, type: 3}
@@ -3047,6 +3125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1279046754}
   - component: {fileID: 1279046753}
+  - component: {fileID: 1279046755}
   m_Layer: 0
   m_Name: Gorilla
   m_TagString: Untagged
@@ -3121,6 +3200,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279046755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279046752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1304852381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3201,6 +3292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1327509865}
   - component: {fileID: 1327509864}
+  - component: {fileID: 1327509866}
   m_Layer: 0
   m_Name: Sloth
   m_TagString: Untagged
@@ -3275,6 +3367,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1327509866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327509863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1336812149 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2334598002068359779, guid: e83759ac321adeb49b797a3f62c2ee6b, type: 3}
@@ -3360,6 +3464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1351341578}
   - component: {fileID: 1351341577}
+  - component: {fileID: 1351341579}
   m_Layer: 0
   m_Name: Pig
   m_TagString: Untagged
@@ -3434,6 +3539,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351341579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351341576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1362947537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1362947539}
   - component: {fileID: 1362947538}
+  - component: {fileID: 1362947540}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -3518,6 +3636,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1362947540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362947537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1366973078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4689,6 +4819,7 @@ GameObject:
   - component: {fileID: 1747272481}
   - component: {fileID: 1747272480}
   - component: {fileID: 1747272479}
+  - component: {fileID: 1747272482}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -4775,6 +4906,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747272482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747272478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4af4d77f860f646b8a621526db47c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isNinja: 0
+  isDoge: 0
+  isSquidgame: 0
+  isDrunk: 0
 --- !u!1001 &1749648241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5715,6 +5862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042491629}
   - component: {fileID: 2042491628}
+  - component: {fileID: 2042491630}
   m_Layer: 0
   m_Name: Snake
   m_TagString: Untagged
@@ -5789,6 +5937,18 @@ Transform:
   m_Father: {fileID: 2029073065}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2042491630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042491627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2050155562
 PrefabInstance:
   m_ObjectHideFlags: 0

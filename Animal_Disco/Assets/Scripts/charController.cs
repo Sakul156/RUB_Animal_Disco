@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class charController : MonoBehaviour
 {
+    private cheatCodes cc;
     private int playerSpeed = 6;
-    private int rotateSpeed = 90;
     private bool isDancing = false;
 
     // Update is called once per frame
@@ -47,15 +47,15 @@ public class charController : MonoBehaviour
         {
             isDancing = true;
 
-            transform.Rotate(Vector3.forward * rotateSpeed);
+            transform.Rotate(Vector3.forward * 90);
             yield return new WaitForSeconds(0.5f);
-            transform.Rotate(Vector3.forward * rotateSpeed);
+            transform.Rotate(Vector3.forward * 90);
 
             yield return new WaitForSeconds(0.5f);
-            transform.Rotate(Vector3.forward * rotateSpeed);
+            transform.Rotate(Vector3.forward * 90);
 
             yield return new WaitForSeconds(0.5f);
-            transform.Rotate(Vector3.forward * rotateSpeed);
+            transform.Rotate(Vector3.forward * 90);
 
             isDancing = false;
         }
