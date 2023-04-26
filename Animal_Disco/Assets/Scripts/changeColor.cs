@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class changeColor : MonoBehaviour
 {
-    private cheatCodes cc;
+    
     private SpriteRenderer sr;
     void Awake()
     {
+        
         sr = GetComponent<SpriteRenderer>();
         StartCoroutine(colorChange());
     }
@@ -19,6 +20,7 @@ public class changeColor : MonoBehaviour
             sr.color = Random.ColorHSV();
             yield return new WaitForSeconds(Random.Range(0.5f, 2f));
         }
+       
     }
 
 }

@@ -5,10 +5,15 @@ using UnityEngine;
 public class charController : MonoBehaviour
 {
     private cheatCodes cc;
+    private SpriteRenderer sr;
     private int playerSpeed = 6;
     private bool isDancing = false;
 
-    // Update is called once per frame
+    private void Awake()
+    {
+        cc = GetComponent<cheatCodes>();
+        sr = GetComponent<SpriteRenderer>();
+    }
     void Update()
     {
         if (!isDancing)
@@ -20,6 +25,24 @@ public class charController : MonoBehaviour
 
     private void playerMovement()
     {
+        if(cc.isNinja)
+        {
+            Color color = sr.color;
+            playerSpeed = 3;
+            color.a = 0.5f;
+            sr.color = color;
+        }
+
+        else
+        {
+            Color color = sr.color;
+            playerSpeed = 3;
+            color.a = 1f;
+            sr.color = color;
+            playerSpeed = 6;
+            
+        }
+
         if (Input.GetKey(KeyCode.W))
         {
             transform.position += new Vector3(0, 1) * playerSpeed * Time.deltaTime;

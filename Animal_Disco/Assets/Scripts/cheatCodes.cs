@@ -65,7 +65,7 @@ public class cheatCodes : MonoBehaviour
     }
     private void checkNinja()
     {
-        if(currWord is "ninja" && !isNinja)
+        if(currWord == "ninja" && !isNinja)
         {
             isNinja = true;
             Debug.Log("NINJAAAMODE");
@@ -74,7 +74,7 @@ public class cheatCodes : MonoBehaviour
             currLetter = 0;
         }
 
-        else if (currWord is "ninja" && isNinja)
+        else if (currWord == "ninja" && isNinja)
         {
             isNinja = false;
             currWord = "";
@@ -86,7 +86,7 @@ public class cheatCodes : MonoBehaviour
 
     private void checkDoge()
     {
-        if (currWord is "doge" && !isDoge)
+        if (currWord == "doge" && !isDoge)
         {
             isDoge = true;
             Debug.Log("DOGEMODE");
@@ -95,7 +95,7 @@ public class cheatCodes : MonoBehaviour
             currLetter = 0;
         }
 
-        else if (currWord is "doge" && isDoge)
+        else if (currWord == "doge" && isDoge)
         {
             isDoge = false;
             currWord = "";
@@ -108,7 +108,7 @@ public class cheatCodes : MonoBehaviour
 
     private void checkSquidgame()
     {
-        if (currWord is "squidgame" && !isSquidgame)
+        if (currWord == "squidgame" && !isSquidgame)
         {
             isSquidgame= true;
             Debug.Log("SQUIIIDGAMEEEE");
@@ -117,7 +117,7 @@ public class cheatCodes : MonoBehaviour
             currLetter = 0;
         }
 
-        else if (currWord is "squidgame" && isSquidgame)
+        else if (currWord == "squidgame" && isSquidgame)
         {
             isSquidgame = false;
             currWord = "";
@@ -130,7 +130,7 @@ public class cheatCodes : MonoBehaviour
 
     private void checkDrunk()
     {
-        if (currWord is "alcohol" && !isDrunk)
+        if (currWord == "alcohol" && !isDrunk)
         {
             isDrunk = true;
             Debug.Log("IM FUCKING DRUNK");
@@ -139,7 +139,7 @@ public class cheatCodes : MonoBehaviour
             currLetter = 0;
         }
 
-        else if (currWord is "alcohol" && isDrunk)
+        else if (currWord == "alcohol" && isDrunk)
         {
             isDrunk = false;
             currWord = "";

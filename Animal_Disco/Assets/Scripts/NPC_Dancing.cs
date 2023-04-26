@@ -4,13 +4,33 @@ using UnityEngine;
 
 public class NPC_Dancing : MonoBehaviour
 {
-    private cheatCodes cc;
+    [SerializeField] private cheatCodes cc;
+    private SpriteRenderer sr;
+    private Sprite normalSprite;
+    [SerializeField] Sprite dogeSprite;
     private int danceMove;
     private int timeRandomizer;
     private int moveRandomizer;
     private bool isDancing = false;
+
+    private void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        normalSprite = sr.sprite;
+    }
+
     void Update()
     {
+        if(cc.isDoge)
+        {
+            sr.sprite = dogeSprite;
+        }
+
+        else
+        {
+            sr.sprite = normalSprite;
+        }
+
         if(isDancing == false)
         {
             StartCoroutine(Randomizer());
