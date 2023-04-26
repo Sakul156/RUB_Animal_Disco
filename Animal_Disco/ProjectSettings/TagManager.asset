@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Discolights
+    uniqueID: 3813611341
+    locked: 0
+  - name: guests
+    uniqueID: 2542311733
+    locked: 0
+  - name: player
+    uniqueID: 1252486051
+    locked: 0
