@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class spawn_lights : MonoBehaviour
 {
+    [SerializeField] GameObject lightsParent;
     [SerializeField] GameObject discoLight;
     private Vector3 camPos;
     private float camHeight;
@@ -37,6 +38,7 @@ public class spawn_lights : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.F))
         {
             GameObject newObject = Instantiate(discoLight, spawnPoint, Quaternion.identity);
+            newObject.transform.SetParent(lightsParent.transform);
         }
     }
 }

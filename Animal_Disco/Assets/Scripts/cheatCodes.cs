@@ -110,7 +110,7 @@ public class cheatCodes : MonoBehaviour
     {
         if (currWord == "squidgame" && !isSquidgame)
         {
-            isSquidgame= true;
+            isSquidgame = true;
             Debug.Log("SQUIIIDGAMEEEE");
             currWord = "";
             searchedWord = "";
