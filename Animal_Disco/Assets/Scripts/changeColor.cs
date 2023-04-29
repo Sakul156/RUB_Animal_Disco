@@ -8,7 +8,7 @@ public class changeColor : MonoBehaviour
     private SpriteRenderer sr;
     private GameObject discoLights;
     private List<SpriteRenderer> allSr = new List<SpriteRenderer>();
-    private bool greenActive = false;
+    public bool isRed = false;
 
     void Awake()
     {
@@ -21,12 +21,33 @@ public class changeColor : MonoBehaviour
 
     public IEnumerator colorChange()
     {
-        while (!cc.isSquidgame)
+        while (true)
         {
-            sr.color = Random.ColorHSV();
-            yield return new WaitForSeconds(Random.Range(0.5f, 2f));
+            if (cc.isSquidgame)
+            {
+                // Switch between red and green
+                foreach (SpriteRenderer s in allSr)
+                {
+                    s.color = Color.red;
+                    isRed = true;
+                }
+                yield return new WaitForSeconds(2); 
+                foreach (SpriteRenderer s in allSr)
+                {
+                    s.color = Color.green;
+                    isRed = false;
+                }
+                yield return new WaitForSeconds(3); 
+            }
+            else
+            {
+                // Change colors randomly
+                foreach (SpriteRenderer s in allSr)
+                {
+                    s.color = Random.ColorHSV();
+                }
+                yield return new WaitForSeconds(Random.Range(0.5f, 2f));
+            }
         }
     }
-
-    
 }
