@@ -8,7 +8,7 @@ public class changeColor : MonoBehaviour
     private SpriteRenderer sr;
     private GameObject discoLights;
     private List<SpriteRenderer> allSr = new List<SpriteRenderer>();
-    public bool isRed = false;
+    private bool isRed = false;
 
     void Awake()
     {
@@ -21,32 +21,53 @@ public class changeColor : MonoBehaviour
 
     public IEnumerator colorChange()
     {
+        bool isChangingColor = false; // flag to keep track of whether a color change is currently happening
+
         while (true)
         {
             if (cc.isSquidgame)
             {
-                // Switch between red and green
-                foreach (SpriteRenderer s in allSr)
+                if (!isChangingColor)
                 {
-                    s.color = Color.red;
-                    isRed = true;
+                    isChangingColor = true;
+
+                    if (isRed)
+                    {
+                        // switch to green
+                        foreach (SpriteRenderer s in allSr)
+                        {
+                            s.color = Color.green;
+                        }
+                        isRed = false;
+                    }
+                    else
+                    {
+                        // switch to red
+                        foreach (SpriteRenderer s in allSr)
+                        {
+                            s.color = Color.red;
+                        }
+                        isRed = true;
+
+                        // destroy NPCs that start a new dance while red
+                        //foreach (GameObject npc in GameObject.FindGameObjectsWithTag("NPC"))
+                        //{
+                          //  dance npcDance = npc.GetComponent<dance>();
+                   //         if (npcDance != null && npcDance.isStartingDance)
+                     //       {
+                       //         StartCoroutine(DestroyAfterDelay(npc));
+                         //   }
+               //         }
+                    }
+
+                    yield return new WaitForSeconds(4f); // wait for color to stay for 1 second
+                    isChangingColor = false; // allow color to change again
                 }
-                yield return new WaitForSeconds(2); 
-                foreach (SpriteRenderer s in allSr)
-                {
-                    s.color = Color.green;
-                    isRed = false;
-                }
-                yield return new WaitForSeconds(3); 
             }
             else
             {
-                // Change colors randomly
-                foreach (SpriteRenderer s in allSr)
-                {
-                    s.color = Random.ColorHSV();
-                }
-                yield return new WaitForSeconds(Random.Range(0.5f, 2f));
+                sr.color = Random.ColorHSV();
+                yield return new WaitForSeconds(Random.Range(2f, 4f));
             }
         }
     }
