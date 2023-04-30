@@ -8,9 +8,7 @@ public class charController : MonoBehaviour
     private SpriteRenderer sr;
     private int playerSpeed = 6;
     private bool isDancing = false;
-    private float waveSpeed = 2f; // Speed of the wave movement
-    private float waveHeight = 0.2f; // Height of the wave movement
-    private float waveOffset = 0f; // Offset of the wave movement
+   
 
     private void Awake()
     {
@@ -64,15 +62,6 @@ public class charController : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += new Vector3(1, 0) * playerSpeed * Time.deltaTime;
-        }
-
-        while(cc.isDrunk)
-        {
-            // Calculate the vertical wave movement
-            float verticalOffset = Mathf.Sin(Time.time * waveSpeed + waveOffset) * waveHeight;
-
-            // Update the player's position with the wavy movement
-            transform.position = new Vector3(transform.position.x, transform.position.y + verticalOffset, transform.position.z);
         }
     }
 

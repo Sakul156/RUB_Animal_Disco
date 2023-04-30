@@ -8,7 +8,7 @@ public class cheatCodes : MonoBehaviour
     public bool isNinja = false;
     public bool isDoge = false;
     public bool isSquidgame = false;
-    public bool isDrunk = false;
+
     private string currWord = "";
     private string searchedWord = "";
     private int currLetter = 0;
@@ -19,8 +19,7 @@ public class cheatCodes : MonoBehaviour
         allCheatCodes.Add("ninja");
         allCheatCodes.Add("doge");
         allCheatCodes.Add("squidgame");
-        allCheatCodes.Add("beer");
-        allCheatCodes.Add("water");
+        
     }
     void Update()
     {
@@ -28,126 +27,104 @@ public class cheatCodes : MonoBehaviour
         checkNinja();
         checkDoge();
         checkSquidgame();
-        checkDrunk();
+
     }
-
-    private void getCurrWord()
-    {
-        if(Input.anyKey && Input.inputString.Length > 0)
+        private void getCurrWord()
         {
-            char keyPressed = Input.inputString[0];
-            keyPressed = char.ToLower(keyPressed);
-
-            if (currWord == "")
+            if (Input.anyKey && Input.inputString.Length > 0)
             {
-                for (int i = 0; i < allCheatCodes.Count; i++)
+                char keyPressed = Input.inputString[0];
+                keyPressed = char.ToLower(keyPressed);
+
+                if (currWord == "")
                 {
-                     if(keyPressed == allCheatCodes[i][0])
+                    for (int i = 0; i < allCheatCodes.Count; i++)
                     {
-                        searchedWord = allCheatCodes[i];
-                        currLetter = 0;
-                        break;
+                        if (keyPressed == allCheatCodes[i][0])
+                        {
+                            searchedWord = allCheatCodes[i];
+                            currLetter = 0;
+                            break;
+                        }
                     }
                 }
-            }
 
-            if (!string.IsNullOrEmpty(searchedWord) && currLetter < searchedWord.Length && keyPressed == searchedWord[currLetter])
-            {
-                currWord += keyPressed;
-                currLetter += 1;
+                if (!string.IsNullOrEmpty(searchedWord) && currLetter < searchedWord.Length && keyPressed == searchedWord[currLetter])
+                {
+                    currWord += keyPressed;
+                    currLetter += 1;
+                }
+                else
+                {
+                    currWord = "";
+                    searchedWord = "";
+                    currLetter = 0;
+                }
             }
-            else
+        }
+        private void checkNinja()
+        {
+            if (currWord == "ninja" && !isNinja)
             {
+                isNinja = true;
+                Debug.Log("NINJAAAMODE");
                 currWord = "";
                 searchedWord = "";
                 currLetter = 0;
             }
+
+            else if (currWord == "ninja" && isNinja)
+            {
+                isNinja = false;
+                currWord = "";
+                searchedWord = "";
+                currLetter = 0;
+                Debug.Log("Ninja deactivated");
+            }
         }
-    }
-    private void checkNinja()
-    {
-        if(currWord == "ninja" && !isNinja)
+
+        private void checkDoge()
         {
-            isNinja = true;
-            Debug.Log("NINJAAAMODE");
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
+            if (currWord == "doge" && !isDoge)
+            {
+                isDoge = true;
+                Debug.Log("DOGEMODE");
+                currWord = "";
+                searchedWord = "";
+                currLetter = 0;
+            }
+
+            else if (currWord == "doge" && isDoge)
+            {
+                isDoge = false;
+                currWord = "";
+                searchedWord = "";
+                currLetter = 0;
+                Debug.Log("Doge deactivated");
+
+            }
         }
 
-        else if (currWord == "ninja" && isNinja)
+        private void checkSquidgame()
         {
-            isNinja = false;
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-            Debug.Log("Ninja deactivated");
+            if (currWord == "squidgame" && !isSquidgame)
+            {
+                isSquidgame = true;
+                Debug.Log("SQUIIIDGAMEEEE");
+                currWord = "";
+                searchedWord = "";
+                currLetter = 0;
+            }
+
+            else if (isSquidgame && Input.GetKeyDown(KeyCode.W))
+            {
+                isSquidgame = false;
+                currWord = "";
+                searchedWord = "";
+                currLetter = 0;
+                Debug.Log("Squidgame deactivated");
+
+            }
         }
-    }
-
-    private void checkDoge()
-    {
-        if (currWord == "doge" && !isDoge)
-        {
-            isDoge = true;
-            Debug.Log("DOGEMODE");
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-        }
-
-        else if (currWord == "doge" && isDoge)
-        {
-            isDoge = false;
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-            Debug.Log("Doge deactivated");
-
-        }
-    }
-
-    private void checkSquidgame()
-    {
-        if (currWord == "squidgame" && !isSquidgame)
-        {
-            isSquidgame = true;
-            Debug.Log("SQUIIIDGAMEEEE");
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-        }
-
-        else if (isSquidgame && Input.GetKeyDown(KeyCode.W))
-        {
-            isSquidgame = false;
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-            Debug.Log("Squidgame deactivated");
-
-        }
-    }
-
-    private void checkDrunk()
-    {
-        if (currWord == "beer" && !isDrunk)
-        {
-            isDrunk = true;
-            Debug.Log("IM FUCKING DRUNK");
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-        }
-
-        else if (currWord == "water" && isDrunk)
-        {
-            isDrunk = false;
-            currWord = "";
-            searchedWord = "";
-            currLetter = 0;
-            Debug.Log("Sober again");
-
-        }
-    }
+   
 }
