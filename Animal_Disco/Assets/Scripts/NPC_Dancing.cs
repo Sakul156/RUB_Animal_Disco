@@ -4,24 +4,35 @@ using UnityEngine;
 
 public class NPC_Dancing : MonoBehaviour
 {
-    [SerializeField] private cheatCodes cc;
+    private cheatCodes cc;
     private SpriteRenderer sr;
+    private changeColor ch;
     private Sprite normalSprite;
     [SerializeField] Sprite dogeSprite;
     private int danceMove;
     private int timeRandomizer;
     private int moveRandomizer;
-    private bool isDancing = false;
+    public bool isDancing = false;
+    private bool startedDancing = false;
 
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+        ch = GameObject.Find("light").GetComponent<changeColor>();
+        cc = GameObject.Find("player").GetComponent<cheatCodes>();
         normalSprite = sr.sprite;
     }
 
     void Update()
     {
-        if(cc.isDoge)
+        Color c = sr.color;
+        if (!cc.isSquidgame)
+        {
+            c.a = 1f;
+            sr.color = c;
+        }
+
+        if (cc.isDoge)
         {
             sr.sprite = dogeSprite;
         }
@@ -34,6 +45,12 @@ public class NPC_Dancing : MonoBehaviour
         if(isDancing == false)
         {
             StartCoroutine(Randomizer());
+        }
+
+        if(ch.isRed && startedDancing)
+        {
+            c.a = 0f;
+            sr.color = c;
         }
     }
 
@@ -57,6 +74,7 @@ public class NPC_Dancing : MonoBehaviour
   
     IEnumerator startDancing(int danceMove)
     {
+        startedDancing = true;
         if (danceMove == 1)
         {
             transform.Rotate(Vector3.forward * 90);
@@ -70,7 +88,31 @@ public class NPC_Dancing : MonoBehaviour
         
             transform.Rotate(Vector3.forward * 90);
         }
+        else if(danceMove == 2)
+        {
+            // Scale up to double size
+            Vector3 originalScale = transform.localScale;
+            Vector3 targetScale = originalScale * 2f;
+            float duration = 0.5f;
+            float timeElapsed = 0f;
+            while (timeElapsed < duration)
+            {
+                transform.localScale = Vector3.Lerp(originalScale, targetScale, timeElapsed / duration);
+                timeElapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            // Scale back to original size
+            timeElapsed = 0f;
+            while (timeElapsed < duration)
+            {
+                transform.localScale = Vector3.Lerp(targetScale, originalScale, timeElapsed / duration);
+                timeElapsed += Time.deltaTime;
+                yield return null;
+            }
+        }
 
         isDancing = false;
+        startedDancing = false;
     }
 }

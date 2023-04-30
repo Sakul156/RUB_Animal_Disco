@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -316,6 +320,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -376,6 +384,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -441,7 +453,7 @@ GameObject:
   - component: {fileID: 181351818}
   m_Layer: 0
   m_Name: Bear
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -525,8 +537,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &195632772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -546,6 +558,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -613,6 +629,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -679,6 +699,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -739,6 +763,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -805,6 +833,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -981,6 +1013,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -1041,6 +1077,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -1108,6 +1148,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -1168,6 +1212,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -1233,7 +1281,7 @@ GameObject:
   - component: {fileID: 606218945}
   m_Layer: 0
   m_Name: Penguin
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1317,8 +1365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!1001 &623940670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1333,6 +1381,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -1405,6 +1457,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -1465,6 +1521,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -1532,6 +1592,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1598,6 +1662,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -1658,6 +1726,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -1720,6 +1792,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1779,7 +1855,7 @@ GameObject:
   - component: {fileID: 849264254}
   m_Layer: 0
   m_Name: Narwhal
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1863,8 +1939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!1001 &896637513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1879,6 +1955,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -1941,6 +2021,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2000,7 +2084,7 @@ GameObject:
   - component: {fileID: 928536177}
   m_Layer: 0
   m_Name: Monkey
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2084,8 +2168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!1001 &962571414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2100,6 +2184,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -2160,7 +2248,7 @@ GameObject:
   - component: {fileID: 1009456569}
   m_Layer: 0
   m_Name: Buffalo
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2244,8 +2332,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &1025135165 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -2270,6 +2358,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -2341,6 +2433,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -2416,7 +2512,7 @@ GameObject:
   - component: {fileID: 1179185122}
   m_Layer: 0
   m_Name: Giraffe
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2500,8 +2596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &1192018786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -2521,6 +2617,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -2586,7 +2686,7 @@ GameObject:
   - component: {fileID: 1279046755}
   m_Layer: 0
   m_Name: Gorilla
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2670,8 +2770,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &1293782064 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -2695,7 +2795,7 @@ GameObject:
   - component: {fileID: 1327509866}
   m_Layer: 0
   m_Name: Sloth
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2779,8 +2879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &1340550357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -2799,7 +2899,7 @@ GameObject:
   - component: {fileID: 1351341579}
   m_Layer: 0
   m_Name: Pig
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2883,8 +2983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!1 &1362947537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,7 +2998,7 @@ GameObject:
   - component: {fileID: 1362947540}
   m_Layer: 0
   m_Name: Rabbit
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2982,8 +3082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &1384270788 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -3008,6 +3108,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3069,6 +3173,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3136,6 +3244,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -3202,6 +3314,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3262,6 +3378,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3328,6 +3448,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3400,6 +3524,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -3460,6 +3588,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3526,6 +3658,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3702,6 +3838,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3768,6 +3908,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3829,6 +3973,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -3889,6 +4037,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -3955,6 +4107,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -4070,7 +4226,7 @@ GameObject:
   - component: {fileID: 2040104137}
   m_Layer: 0
   m_Name: DiscoLights
-  m_TagString: Untagged
+  m_TagString: DiscoLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4144,7 +4300,7 @@ GameObject:
   - component: {fileID: 2042491630}
   m_Layer: 0
   m_Name: Snake
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4228,8 +4384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e2be4b0dc1bfc4780368b4de2622fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: {fileID: 1747272482}
   dogeSprite: {fileID: 21300000, guid: 0d4f0a4b68920f7459fde8ad2d50ea20, type: 3}
+  isDancing: 0
 --- !u!4 &2074534019 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
@@ -4249,6 +4405,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder
@@ -4310,6 +4470,10 @@ PrefabInstance:
     - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611436718165749634, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
+      propertyPath: m_TagString
+      value: DiscoLight
       objectReference: {fileID: 0}
     - target: {fileID: 4918912551210634157, guid: 9b5c3c324c25d79438a9eab4f82774c3, type: 3}
       propertyPath: m_RootOrder

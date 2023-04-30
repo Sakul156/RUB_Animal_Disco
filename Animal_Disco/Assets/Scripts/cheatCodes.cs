@@ -12,14 +12,15 @@ public class cheatCodes : MonoBehaviour
     private string currWord = "";
     private string searchedWord = "";
     private int currLetter = 0;
-
+   
+    
     private void Awake()
     {
         allCheatCodes.Add("ninja");
         allCheatCodes.Add("doge");
         allCheatCodes.Add("squidgame");
-        allCheatCodes.Add("alcohol");
-
+        allCheatCodes.Add("beer");
+        allCheatCodes.Add("water");
     }
     void Update()
     {
@@ -117,7 +118,7 @@ public class cheatCodes : MonoBehaviour
             currLetter = 0;
         }
 
-        else if (currWord == "squidgame" && isSquidgame)
+        else if (isSquidgame && Input.GetKeyDown(KeyCode.W))
         {
             isSquidgame = false;
             currWord = "";
@@ -130,7 +131,7 @@ public class cheatCodes : MonoBehaviour
 
     private void checkDrunk()
     {
-        if (currWord == "alcohol" && !isDrunk)
+        if (currWord == "beer" && !isDrunk)
         {
             isDrunk = true;
             Debug.Log("IM FUCKING DRUNK");
@@ -139,7 +140,7 @@ public class cheatCodes : MonoBehaviour
             currLetter = 0;
         }
 
-        else if (currWord == "alcohol" && isDrunk)
+        else if (currWord == "water" && isDrunk)
         {
             isDrunk = false;
             currWord = "";
